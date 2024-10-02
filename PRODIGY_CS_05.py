@@ -14,7 +14,6 @@ def capture_packets(interface, count):
         print("Payload:", packet.payload)
         print()
 
-# Main function
 def main():
     # Get the interface from the user
     interface = input("Enter the interface to capture packets on (e.g. eth0, wlan0): ")
